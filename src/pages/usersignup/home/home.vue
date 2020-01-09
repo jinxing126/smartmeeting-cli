@@ -14,17 +14,17 @@
 <script>
 // import uniPopup from "@dcloudio/uni-ui/lib/uni-popup/uni-popup.vue";
 export default {
-//   components: {
-//     uniPopup
-//   },
+  // components: {
+  //   uniPopup
+  // },
   data() {
     return {};
   },
   onLoad() {},
   methods: {
     getUserInfo(info) {
-    //   this.$refs.popup.open();
-    console.log(info)
+      // this.$refs.popup.open();
+      console.log(info);
     }
   }
 };
@@ -39,7 +39,6 @@ page {
   width: 100%;
   height: 100%;
   position: relative;
-
 }
 .logo {
   height: 100%;
